@@ -13,8 +13,7 @@ Incomplete
 
 # Second Milestone
   
-
-Incomplete
+The second milestone was getting the two esp modules to connect and be able to send data back and forth.  This will allow for wirless communication from the persons arm and gyroscope to the motors.
 
 ![Contruction](https://t3.ftcdn.net/jpg/03/44/17/18/360_F_344171869_h3nxznW93zBoOLuMeIJ3Q3xzanFSN8vu.jpg)
   
