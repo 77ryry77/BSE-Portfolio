@@ -26,17 +26,22 @@ The first milestone was setting up and getting the car to move.  I had to test a
 
 ```
 
+
 #include "WiFi.h"
 
+//assigns the pins to control the left motors
 int motor1pin1 = 26;
 int motor1pin2 = 25;
 
-
+//assigns the pins to control the right motors
 int motor2pin1 = 33;
 int motor2pin2 = 32;
 
+
 void setup() {
   // put your setup code here, to run once:
+
+  //sets all the pins to control the motor to be output pins
   pinMode(motor1pin1, OUTPUT);
   pinMode(motor1pin2, OUTPUT);
   pinMode(motor2pin1, OUTPUT);
@@ -45,9 +50,15 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+
+  //this loop will decide which way to turn eventually
+
+  //for now just moves car depending on what method is called
   forward();
 }
 
+
+//forward backward left right move set the direction of the wheels to control movmenet
 void forward(){
   digitalWrite(motor1pin1, HIGH);
   digitalWrite(motor1pin2, LOW);
@@ -76,6 +87,7 @@ void right(){
   digitalWrite(motor2pin1, HIGH);
   digitalWrite(motor2pin2, LOW);
 }
+//turns all the motors off
 void stop(){
   digitalWrite(motor1pin1, LOW);
   digitalWrite(motor1pin2, LOW);
