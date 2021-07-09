@@ -5,6 +5,18 @@ The car is controlled by the way the person moves their arm.  If the person move
 |:--:|:--:|:--:|:--:|
 | Ryan Dalal | Edgemont Highschool | Computer Science | Incoming Sophmore
 
+# Final Milestone
+  
+Incomplete
+
+![Contruction](https://t3.ftcdn.net/jpg/03/44/17/18/360_F_344171869_h3nxznW93zBoOLuMeIJ3Q3xzanFSN8vu.jpg)
+
+# Second Milestone
+  
+
+Incomplete
+
+![Contruction](https://t3.ftcdn.net/jpg/03/44/17/18/360_F_344171869_h3nxznW93zBoOLuMeIJ3Q3xzanFSN8vu.jpg)
   
 # First Milestone
   
