@@ -17,9 +17,9 @@ The second milestone was getting basic gestures to make the car move.  Right now
 
 Code can be found here
   
-To connect esps I followed a tutorial and used code from https://randomnerdtutorials.com/esp-now-two-way-communication-esp32/ 
+To connect esps I followed a tutorial and used code from <a href="https://randomnerdtutorials.com/esp-now-two-way-communication-esp32/">here</a> 
 
-To calculate the yaw pitch and roll values I used code from https://www.instructables.com/Arduino-MPU6050-GY521-6-Axis-Accelerometer-Gyro-3D/
+To calculate the yaw pitch and roll values I used code from <a href="https://www.instructables.com/Arduino-MPU6050-GY521-6-Axis-Accelerometer-Gyro-3D/">here</a>
   
 Remeber to change the MAC adresses
 
