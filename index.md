@@ -18,6 +18,7 @@ The second milestone was getting basic gestures to make the car move.  Right now
 ```
 //=====================================
 //code for the esp connected to the car
+//esp connection code based on tutorial at https://randomnerdtutorials.com/esp-now-two-way-communication-esp32/ 
 //=====================================
 #include "WiFi.h"
 #include <Wire.h>
@@ -170,6 +171,8 @@ void off(){
 
 //===================================
 //code for esp connected to gyroscope
+//esp connection code based on tutorial at https://randomnerdtutorials.com/esp-now-two-way-communication-esp32/ 
+//gyroscope calculations are cut down version of code from https://www.instructables.com/Arduino-MPU6050-GY521-6-Axis-Accelerometer-Gyro-3D/
 //===================================
 #include "I2Cdev.h"
 #include <esp_now.h>
