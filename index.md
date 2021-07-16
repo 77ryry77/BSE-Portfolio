@@ -228,10 +228,6 @@ typedef struct struct_message {
 // Create a struct_message called BME280Readings to hold sensor readings
 struct_message Readings;
 
-// ================================================================
-// ===               INTERRUPT DETECTION ROUTINE                ===
-// ================================================================
-
 volatile bool mpuInterrupt = false;     // indicates whether MPU interrupt pin has gone high
 void dmpDataReady() {
     mpuInterrupt = true;
@@ -248,10 +244,6 @@ void OnDataSent(const uint8_t *mac_addr, esp_now_send_status_t status) {
     success = "Delivery Fail :(";
   }
 }
-
-// ================================================================
-// ===                      INITIAL SETUP                       ===
-// ================================================================
 
 void setup() {
     // join I2C bus (I2Cdev library doesn't do this automatically)
@@ -354,12 +346,6 @@ void setup() {
       return;
     }
 }
-
-
-
-// ================================================================
-// ===                    MAIN PROGRAM LOOP                     ===
-// ================================================================
 
 void loop() {
     getReadings();
