@@ -22,7 +22,7 @@ The second milestone was getting the two esp modules to connect and be able to s
 
 The first milestone was setting up and getting the car to move.  I had to test all the motors and switch the positive and negative wires in order to get them all the spin the right way.  Instead of using an esp as the main controller, I used the arduino uno because I didn't have a way to power the esp since it requires 3.3v not 5v.  I had to use a motor control board which supplies the correct voltage to the motors.  It also allows you to easily control the direction of the motor.  In order to get the full potential out of the motors I had to use two battery packs (each with 4x AA batteries), which supplied a total voltage of 12v.  Now the car just follows some preprogrammed instructions to move in all the different directions.
 
-[![Milestone1](https://res.cloudinary.com/marcomontalbano/image/upload/v1626441353/video_to_markdown/images/youtube--K7e2xXXm9xE-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=K7e2xXXm9xE "Milestone1")
+[![Milestone1](https://res.cloudinary.com/marcomontalbano/image/upload/v1626441353/video_to_markdown/images/youtube--K7e2xXXm9xE-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=K7e2xXXm9xE "Milestone1"){:target="_blank" rel="noopener"}
 
 ```
 #include "WiFi.h"
