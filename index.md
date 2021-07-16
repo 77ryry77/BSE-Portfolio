@@ -15,9 +15,11 @@ Incomplete
   
 The second milestone was getting basic gestures to make the car move.  Right now the first esp in someones hand sends data from the gyroscope, to the esp on the car which then controlls the wheels of the car.  The four gesutres right now are moving forward and backward, and turning you wrist left and right.  The esp on the car is currently being powered by an unused arduino, and the esp in the persons hand is powered by a usb cable plugged into the wall.  The car and gyroscope are in a basic functioning stage right now.
 
-To connect esps I followed a tutorial and used code from [here](https://randomnerdtutorials.com/esp-now-two-way-communication-esp32/)
+![Contruction](https://t3.ftcdn.net/jpg/03/44/17/18/360_F_344171869_h3nxznW93zBoOLuMeIJ3Q3xzanFSN8vu.jpg)
 
-To calculate the yaw pitch and roll values I used code from [here](https://www.instructables.com/Arduino-MPU6050-GY521-6-Axis-Accelerometer-Gyro-3D/)
+>To connect esps I followed a tutorial and used code from [here](https://randomnerdtutorials.com/esp-now-two-way-communication-esp32/)
+
+>To calculate the yaw pitch and roll values I used code from [here](https://www.instructables.com/Arduino-MPU6050-GY521-6-Axis-Accelerometer-Gyro-3D/)
 
 ```c++
 //=====================================
@@ -392,8 +394,6 @@ void getReadings(){
     }
 }
 ```
-  
-![Contruction](https://t3.ftcdn.net/jpg/03/44/17/18/360_F_344171869_h3nxznW93zBoOLuMeIJ3Q3xzanFSN8vu.jpg)
   
 # First Milestone
   
