@@ -15,6 +15,7 @@ Incomplete
   
 The second milestone was getting basic gestures to make the car move.  Right now the first esp in someones hand sends data from the gyroscope, to the esp on the car which then controlls the wheels of the car.  The four gesutres right now are moving forward and backward, and turning you wrist left and right.  The esp on the car is currently being powered by an unused arduino, and the esp in the persons hand is powered by a usb cable plugged into the wall.  The car and gyroscope are in a basic functioning stage right now.
 
+<details>
 Code can be found here
   
 To connect esps I followed a tutorial and used code from <a href="https://randomnerdtutorials.com/esp-now-two-way-communication-esp32/">here</a> 
@@ -394,7 +395,7 @@ void getReadings(){
     }
 }
 ```
-
+</details>
   
 ![Contruction](https://t3.ftcdn.net/jpg/03/44/17/18/360_F_344171869_h3nxznW93zBoOLuMeIJ3Q3xzanFSN8vu.jpg)
   
