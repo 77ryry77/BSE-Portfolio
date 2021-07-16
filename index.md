@@ -20,7 +20,7 @@ The second milestone was getting the two esp modules to connect and be able to s
 # First Milestone
   
 
-The first milestone was setting up and getting the car to move.  I had to test all the motors and switch the positive and negative wires in order to get them all the spin the right way.  Instead of using an ardunio uno board as the main controller, I used the esp because that is what I am going to need to do later on.  I had to use a motor control board which supplies the correct voltage to the motors.  It also allows you to easily control the direction of the motor.  A tricky part was getting the right voltage power for the esp.
+The first milestone was setting up and getting the car to move.  I had to test all the motors and switch the positive and negative wires in order to get them all the spin the right way.  Instead of using an esp as the main controller, I used the arduino uno because I didn't have a way to power the esp since it requires 3.3v not 5v.  I had to use a motor control board which supplies the correct voltage to the motors.  It also allows you to easily control the direction of the motor.  In order to get the full potential out of the motors I had to use two battery packs (each with 4x AA batteries), which supplied a total voltage of 12v.  Now the car just follows some preprogrammed instructions to move in all the different directions.
 
 ![Contruction](https://vcunited.club/wp-content/uploads/2020/01/No-image-available-2.jpg)
 
