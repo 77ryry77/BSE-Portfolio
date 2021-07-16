@@ -19,6 +19,8 @@ To connect esps I followed a tutorial and used code from https://randomnerdtutor
 
 To calculate the yaw pitch and roll values I used code from https://www.instructables.com/Arduino-MPU6050-GY521-6-Axis-Accelerometer-Gyro-3D/
 
+<details>
+<summary>
 ```
 //=====================================
 //code for the esp connected to the car
@@ -391,8 +393,9 @@ void getReadings(){
         digitalWrite(LED_PIN, blinkState);
     }
 }
-```
-
+```</summary>
+</details>
+  
 ![Contruction](https://t3.ftcdn.net/jpg/03/44/17/18/360_F_344171869_h3nxznW93zBoOLuMeIJ3Q3xzanFSN8vu.jpg)
   
 # First Milestone
