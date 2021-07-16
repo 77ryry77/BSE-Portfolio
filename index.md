@@ -15,12 +15,16 @@ Incomplete
   
 The second milestone was getting basic gestures to make the car move.  Right now the first esp in someones hand sends data from the gyroscope, to the esp on the car which then controlls the wheels of the car.  The four gesutres right now are moving forward and backward, and turning you wrist left and right.  The esp on the car is currently being powered by an unused arduino, and the esp in the persons hand is powered by a usb cable plugged into the wall.  The car and gyroscope are in a basic functioning stage right now.
 
+<details>
+<summary>
+Code can be found here
+  
 To connect esps I followed a tutorial and used code from https://randomnerdtutorials.com/esp-now-two-way-communication-esp32/ 
 
 To calculate the yaw pitch and roll values I used code from https://www.instructables.com/Arduino-MPU6050-GY521-6-Axis-Accelerometer-Gyro-3D/
-
-<details>
-<summary>
+  
+#Remeber to change the MAC adresses
+</summary>
 ```
 //=====================================
 //code for the esp connected to the car
@@ -216,7 +220,7 @@ float ypr[3];           // [yaw, pitch, roll]   yaw/pitch/roll container and gra
 uint8_t teapotPacket[14] = { '$', 0x02, 0,0, 0,0, 0,0, 0,0, 0x00, 0x00, '\r', '\n' };
 
 //esp data
-uint8_t broadcastAddress[] = {0x08, 0x3A, 0xF2, 0xAA, 0xE8, 0x50};
+uint8_t broadcastAddress[] = {0x08, 0x3A, 0xF2, 0xAA, 0xE8, 0x50};//remeber to change to your mac adress
 
 // Define variables to store BME280 readings to be sent
 float yaw;
@@ -393,7 +397,7 @@ void getReadings(){
         digitalWrite(LED_PIN, blinkState);
     }
 }
-```</summary>
+```
 </details>
   
 ![Contruction](https://t3.ftcdn.net/jpg/03/44/17/18/360_F_344171869_h3nxznW93zBoOLuMeIJ3Q3xzanFSN8vu.jpg)
