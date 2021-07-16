@@ -30,12 +30,12 @@ The first milestone was setting up and getting the car to move.  I had to test a
 #include "WiFi.h"
 
 //assigns the pins to control the left motors
-int motor1pin1 = 26;
-int motor1pin2 = 25;
+int motor1pin1 = 2;//26
+int motor1pin2 = 3;//25
 
 //assigns the pins to control the right motors
-int motor2pin1 = 33;
-int motor2pin2 = 32;
+int motor2pin1 = 4;//33
+int motor2pin2 = 5;//32
 
 
 void setup() {
@@ -54,7 +54,24 @@ void loop() {
   //this loop will decide which way to turn eventually
 
   //for now just moves car depending on what method is called
+  delay(10000);
   forward();
+  delay(1500);
+  off();
+  delay(100);
+  backward();
+  delay(1000);
+  off();
+  delay(100);
+  left();
+  delay(1500);
+  off();
+  delay(100);
+  right();
+  delay(1000);
+  off();
+  delay(100);
+  off();
 }
 
 
@@ -78,17 +95,17 @@ void left(){
   digitalWrite(motor1pin2, LOW);
 
   digitalWrite(motor2pin1, LOW);
-  digitalWrite(motor2pin2, LOW);
+  digitalWrite(motor2pin2, HIGH);
 }
 void right(){
   digitalWrite(motor1pin1, LOW);
-  digitalWrite(motor1pin2, LOW);
+  digitalWrite(motor1pin2, HIGH);
 
   digitalWrite(motor2pin1, HIGH);
   digitalWrite(motor2pin2, LOW);
 }
 //turns all the motors off
-void stop(){
+void off(){
   digitalWrite(motor1pin1, LOW);
   digitalWrite(motor1pin2, LOW);
 
