@@ -1,8 +1,2 @@
 theme: jekyll-theme-slate
 markdown: kramdown
-.codesnippet .blocks-svg-list,
-.codesnippet code {
-    max-height: 35em;
-    overflow-y: scroll;
-    overflow-x: overlay;
-}
