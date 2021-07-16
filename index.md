@@ -403,7 +403,16 @@ The first milestone was setting up and getting the car to move.  I had to test a
 [![Milestone1](https://res.cloudinary.com/marcomontalbano/image/upload/v1626441353/video_to_markdown/images/youtube--K7e2xXXm9xE-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=K7e2xXXm9xE "Milestone1"){:target="_blank" rel="noopener"}
 
 
+
+## collapsible markdown?
+
+<details><summary>CLICK ME</summary>
+<p>
+
+#### yes, even hidden code blocks!
+
 ```c++
+
 #include "WiFi.h"
 
 //assigns the pins to control the left motors
@@ -489,16 +498,6 @@ void off(){
   digitalWrite(motor2pin1, LOW);
   digitalWrite(motor2pin2, LOW);
 }
-```
-## collapsible markdown?
-
-<details><summary>CLICK ME</summary>
-<p>
-
-#### yes, even hidden code blocks!
-
-```python
-print("hello world!")
 ```
 
 </p>
