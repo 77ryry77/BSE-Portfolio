@@ -416,6 +416,7 @@ The second milestone was getting basic gestures to make the car move.  Right now
 ![Gyro](https://github.com/77ryry77/BSE_Portfolio/blob/gh-pages/gyro.png)
 
 >To connect esps I followed a tutorial and used code from [here](https://randomnerdtutorials.com/esp-now-two-way-communication-esp32/)
+
 >To calculate the yaw pitch and roll values I used code from [here](https://www.instructables.com/Arduino-MPU6050-GY521-6-Axis-Accelerometer-Gyro-3D/)
 
 ```c++
