@@ -7,8 +7,6 @@ The car is controlled by the way the person moves their arm.  If the person move
 
 ![Car](https://github.com/77ryry77/BSE_Portfolio/blob/gh-pages/IMG_0779.jpeg)
 
-![Gyro](https://github.com/77ryry77/BSE_Portfolio/blob/gh-pages/gyro.png)
-
 ## Parts
 - ESP32 Devkit V1 (2x)
 - GY521 Gyroscope Acceleromoter
@@ -413,10 +411,11 @@ void getReadings(){
   
 The second milestone was getting basic gestures to make the car move.  Right now the first esp in someones hand sends data from the gyroscope, to the esp on the car which then controls the wheels of the car.  The four gesutres right now are moving forward and backward, and turning you wrist left and right.  The esp on the car is currently being powered by an unused arduino, and the esp in the persons hand is powered by a usb cable plugged into the wall.  The car and gyroscope are in a basic functioning stage right now.
 
-[![Milestone2](https://res.cloudinary.com/marcomontalbano/image/upload/v1626873924/video_to_markdown/images/youtube--l1Im7CuR5S8-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=l1Im7CuR5S8 "Milestone2")
+[![Milestone2](https://res.cloudinary.com/marcomontalbano/image/upload/v1626873924/video_to_markdown/images/youtube--l1Im7CuR5S8-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=l1Im7CuR5S8 "Milestone2"){:target="_blank" rel="noopener"}
+
+![Gyro](https://github.com/77ryry77/BSE_Portfolio/blob/gh-pages/gyro.png)
 
 >To connect esps I followed a tutorial and used code from [here](https://randomnerdtutorials.com/esp-now-two-way-communication-esp32/)
-
 >To calculate the yaw pitch and roll values I used code from [here](https://www.instructables.com/Arduino-MPU6050-GY521-6-Axis-Accelerometer-Gyro-3D/)
 
 ```c++
