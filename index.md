@@ -16,6 +16,8 @@ The car is controlled by the way the person moves their arm.  If the person move
 - Arduino Uno (or another 3.3v power source)
 - Portable Charger (or another power source for gyro)
 
+![Gyro](https://github.com/77ryry77/BSE_Portfolio/blob/gh-pages/gyro.png)
+
 # Final Milestone
   
 The car is completed now.  It can move in all four directions and now it also has a speed control.  Depending on how far the person turns their wrist or twists forward and backwards, the car will move at different speeds.  This and the faster response time makes it much easier to control and manever around tight spaces.  The car and the remote also now both have indicator lights.  The light on the remote turns on when the gyroscope is ready and the car light turns on when the car is receiving information from the gyroscope.  The remote is also now battery powered and more portable.  This is the final stage of the car. 
