@@ -15,7 +15,7 @@ The car is completed now.  It can move in all four directions and now it also ha
 
 ![Gyro](https://github.com/77ryry77/BSE_Portfolio/blob/gh-pages/gyro.png)
 
-###Parts
+### Parts
 - ESP32 Devkit V1 (2x)
 - GY521 Gyroscope Acceleromoter
 - L928n motor driver
