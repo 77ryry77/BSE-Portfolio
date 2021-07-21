@@ -5,7 +5,7 @@ The car is controlled by the way the person moves their arm.  If the person move
 |:--:|:--:|:--:|:--:|
 | Ryan Dalal | Edgemont Highschool | Computer Science | Incoming Sophmore
 
-![Car](https://github.com/77ryry77/BSE_Portfolio/blob/gh-pages/IMG_0779.jpeg)
+![Car](https://github.com/77ryry77/BSE_Portfolio/raw/gh-pages/IMG_0779.jpeg)
 
 ## Parts
 - ESP32 Devkit V1 (2x)
@@ -16,7 +16,7 @@ The car is controlled by the way the person moves their arm.  If the person move
 - Arduino Uno (or another 3.3v power source)
 - Portable Charger (or another power source for gyro)
 
-![Gyro](https://github.com/77ryry77/BSE_Portfolio/blob/gh-pages/gyro.png)
+![Gyro](https://github.com/77ryry77/BSE_Portfolio/raw/gh-pages/gyro.png)
 
 # Final Milestone
   
@@ -415,7 +415,7 @@ The second milestone was getting basic gestures to make the car move.  Right now
 
 [![Milestone2](https://res.cloudinary.com/marcomontalbano/image/upload/v1626873924/video_to_markdown/images/youtube--l1Im7CuR5S8-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=l1Im7CuR5S8 "Milestone2"){:target="_blank" rel="noopener"}
 
-![Schematic](https://github.com/77ryry77/BSE_Portfolio/blob/gh-pages/schematic.png)
+![Schematic](https://github.com/77ryry77/BSE_Portfolio/raw/gh-pages/schematic.png)
 
 >To connect esps I followed a tutorial and used code from [here](https://randomnerdtutorials.com/esp-now-two-way-communication-esp32/)
 
