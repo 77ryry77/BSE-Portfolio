@@ -15,6 +15,15 @@ The car is completed now.  It can move in all four directions and now it also ha
 
 ![Gyro](https://github.com/77ryry77/BSE_Portfolio/blob/gh-pages/gyro.png)
 
+###Parts
+- ESP32 Devkit V1 (2x)
+- GY521 Gyroscope Acceleromoter
+- L928n motor driver
+- 12v DC motor (4x)
+- 4x AA battery pack (x2)
+- Arduino Uno (not neccessary if another 3.3v power source is available)
+- Portable Charger (not neccessary if another power source for gyro is available)
+
 ```c++
 //================
 //Code for car esp
