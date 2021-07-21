@@ -13,7 +13,7 @@ The car is completed now.  It can move in all four directions and now it also ha
 
 ![Contruction](https://t3.ftcdn.net/jpg/03/44/17/18/360_F_344171869_h3nxznW93zBoOLuMeIJ3Q3xzanFSN8vu.jpg)
 
-![Gyro](https://github.com/77ryry77/BSE_Portfolio/blob/gh-pages/IMG_0778.jpeg)
+![Gyro](https://github.com/77ryry77/BSE_Portfolio/blob/gh-pages/gyro.png)
 
 ```c++
 //================
