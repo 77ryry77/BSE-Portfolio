@@ -413,7 +413,7 @@ The second milestone was getting basic gestures to make the car move.  Right now
 
 [![Milestone2](https://res.cloudinary.com/marcomontalbano/image/upload/v1626873924/video_to_markdown/images/youtube--l1Im7CuR5S8-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=l1Im7CuR5S8 "Milestone2"){:target="_blank" rel="noopener"}
 
-![Gyro](https://github.com/77ryry77/BSE_Portfolio/blob/gh-pages/gyro.png)
+![Schematic](https://github.com/77ryry77/BSE_Portfolio/blob/gh-pages/schematic.png)
 
 >To connect esps I followed a tutorial and used code from [here](https://randomnerdtutorials.com/esp-now-two-way-communication-esp32/)
 
