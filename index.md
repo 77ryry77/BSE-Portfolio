@@ -13,8 +13,8 @@ The car is controlled by the way the person moves their arm.  If the person move
 - L928n motor driver
 - 12v DC motor (4x)
 - 4x AA battery pack (x2)
-- Arduino Uno (not neccessary if another 3.3v power source is available)
-- Portable Charger (not neccessary if another power source for gyro is available)
+- Arduino Uno (or another 3.3v power source)
+- Portable Charger (or another power source for gyro)
 
 # Final Milestone
   
