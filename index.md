@@ -5,7 +5,7 @@ The car is controlled by the way the person moves their arm.  If the person move
 |:--:|:--:|:--:|:--:|
 | Ryan Dalal | Edgemont Highschool | Computer Science | Incoming Sophmore
 
-![Gyro](https://github.com/77ryry77/BSE_Portfolio/blob/gh-pages/IMG_0779.HEIC)
+![Car](https://github.com/77ryry77/BSE_Portfolio/blob/gh-pages/IMG_0779.jpeg)
 
 # Final Milestone
   
