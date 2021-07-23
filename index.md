@@ -22,6 +22,10 @@ The car is controlled by the way the person moves their arm.  If the person move
 
 [![demonight](https://res.cloudinary.com/marcomontalbano/image/upload/v1627055806/video_to_markdown/images/youtube--efBkCwqKFJA-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=efBkCwqKFJA "demonight")
 
+
+
+
+
 # Final Milestone
   
 The car is completed now.  It can move in all four directions and now it also has a speed control.  Depending on how far the person turns their wrist or twists forward and backwards, the car will move at different speeds.  This and the faster response time makes it much easier to control and maneuver around tight spaces.  The car and the remote also now both have indicator lights.  The light on the remote turns on when the gyroscope is ready and the car light turns on when the car is receiving information from the gyroscope.  The remote is also now battery powered and more portable.  This is the final stage of the car. 
