@@ -1,15 +1,15 @@
-﻿# Gesture Controlled Car
+# Gesture Controlled Car
 The car is controlled by the way the person moves their arm.  If the person moves their arm forward or backwards it will make the car move.  If the person turns their arm it will make the car turn in the same direction.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Ryan Dalal | Edgemont Highschool | Computer Science | Incoming Sophmore
+| Ryan Dalal | Edgemont Highschool | Computer Science | Incoming Sophomore
 
 ![Car](https://github.com/77ryry77/BSE_Portfolio/raw/gh-pages/IMG_0779.jpeg)
 
 ## Parts
 - ESP32 Devkit V1 (2x)
-- GY521 Gyroscope Acceleromoter
+- GY521 Gyroscope Accelerometer
 - L928n motor driver
 - 12v DC motor (4x)
 - 4x AA battery pack (x2)
@@ -20,7 +20,8 @@ The car is controlled by the way the person moves their arm.  If the person move
 
 # Final Milestone
   
-The car is completed now.  It can move in all four directions and now it also has a speed control.  Depending on how far the person turns their wrist or twists forward and backwards, the car will move at different speeds.  This and the faster response time makes it much easier to control and manever around tight spaces.  The car and the remote also now both have indicator lights.  The light on the remote turns on when the gyroscope is ready and the car light turns on when the car is receiving information from the gyroscope.  The remote is also now battery powered and more portable.  This is the final stage of the car. 
+The car is completed now.  It can move in all four directions and now it also has a speed control.  Depending on how far the person turns their wrist or twists forward and backwards, the car will move at different speeds.  This and the faster response time makes it much easier to control and maneuver around tight spaces.  The car and the remote also now both have indicator lights.  The light on the remote turns on when the gyroscope is ready and the car light turns on when the car is receiving information from the gyroscope.  The remote is also now battery powered and more portable.  This is the final stage of the car. 
+
 
 [![FinalMilestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1627049232/video_to_markdown/images/youtube--DUuPwlesQwU-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=DUuPwlesQwU "FinalMilestone"){:target="_blank" rel="noopener"}
 
@@ -411,7 +412,8 @@ void getReadings(){
 
 # Second Milestone
   
-The second milestone was getting basic gestures to make the car move.  Right now the first esp in someones hand sends data from the gyroscope, to the esp on the car which then controls the wheels of the car.  The four gesutres right now are moving forward and backward, and turning you wrist left and right.  The esp on the car is currently being powered by an unused arduino, and the esp in the persons hand is powered by a usb cable plugged into the wall.  The car and gyroscope are in a basic functioning stage right now.
+The second milestone was getting basic gestures to make the car move.  Right now the first esp in someone's hand sends data from the gyroscope, to the esp on the car which then controls the wheels of the car.  The four gestures right now are moving forward and backward, and turning your wrist left and right.  The esp on the car is currently being powered by an unused arduino, and the esp in the person's hand is powered by a usb cable plugged into the wall.  The car and gyroscope are in a basic functioning stage right now.
+
 
 [![Milestone2](https://res.cloudinary.com/marcomontalbano/image/upload/v1626873924/video_to_markdown/images/youtube--l1Im7CuR5S8-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=l1Im7CuR5S8 "Milestone2"){:target="_blank" rel="noopener"}
 
